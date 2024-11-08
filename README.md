@@ -2,7 +2,7 @@
 
 A computer vision project that can identify 13 different Naruto hand signs in real-time using a webcam feed. The model is built using transfer learning with VGG16 architecture.
 
-The final model has not been uploaded as it exceeds github size limits
+The final model has not been uploaded as it exceeds github size limits. The project **might** be updated in the future to identify jutsus...
 
 ## Dataset
 
