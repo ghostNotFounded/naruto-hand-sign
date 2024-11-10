@@ -30,19 +30,27 @@ The dataset includes 13 different Naruto hand signs:
 # Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
+```
 
 # Install dependencies
+```
 pip install -r requirements.txt
+```
 
 # Download dataset
+```
 kaggle datasets download vikranthkanumuru/naruto-hand-sign-dataset
 unzip naruto-hand-sign-dataset.zip -d ./data
 rm naruto-hand-sign-dataset.zip
+```
 
 # Correct path
+```
+cd data
 mv Pure\ Naruto\ Hand\ Sign\ Data/train/ .
 mv Pure\ Naruto\ Hand\ Sign\ Data/test/ .
 rm -r Pure\ Naruto\ Hand\ Sign\ Data/
+cd ..
 ```
 
 ### Windows (not tested)
